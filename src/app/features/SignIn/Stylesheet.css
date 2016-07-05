@@ -1,0 +1,95 @@
+
+
+html, body {
+  height :75% ;
+}
+
+body{
+  background-color:beige;
+  font-family: Play;
+  overflow-x: hidden;
+
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  background:#fff;
+  border: none;
+
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  min-height: 50px;
+  z-index: 99;
+}
+
+.navbar-inverse {
+  background-color: #525252;
+  border-color: #4B4A4A;
+}
+
+.page-header h2 {
+  color:#936c6c;
+  font size: 50px;
+  font-weight:500;
+}
+
+.btn-warning{
+  color: #e60000 ;
+}
+/* Home Section */
+
+.Hometext span:nth-child(n),
+a {
+  text-shadow: none;
+}
+
+#home a {
+  margin: 4px;
+  border: 1px solid black;
+}
+#home h1{
+  line-height: :120px;
+  color:#800000;
+  font size: 50px;
+  font-weight:500;
+
+}
+
+#home p {
+  color: #660000;
+}
+/* Buttons Hover */
+.btn-default:hover {
+  color: red;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+  -moz-opacity: 0.8;
+  -ms-filter: alpha(opacity=80);
+  transition-duration: 0.6s;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+}
+
+/* Home Section */
+#home{
+  background-image: url("img/11.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #800000;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  /*text-shadow: -2px -2px 1px black; */
+  margin-bottom: 0;
+}
+
+#home a {
+  margin: 8px;
+  border: 1px solid black;
+}

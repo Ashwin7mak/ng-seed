@@ -1,0 +1,47 @@
+body{
+  margin: 0 auto;
+  background: url('img/72397.jpg') top left no-repeat;
+  height: 100%;
+  background-size: cover;
+  width: 1920px;
+}
+
+.container{
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  background-color: rgba(50, 75, 95, 0.7);
+  border-radius: 5px;
+  margin : 0 auto;
+  margin-top: 250px;
+}
+h2{
+  font-family: Rockwell, serif;
+  font-size: 30px;
+  color: #00262C;
+  font-style: normal;
+  font-variant: normal;
+  padding-top: 20px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+input[type="text"], input[type="password"]{
+  height: 45px;
+  width: 300px;
+  font-size: 18px;
+  margin: 40px 0 -30px 0 ;
+  background-color: #fff;
+  padding: 10px 30px 0 0;
+}
+
+.btn-login{
+  padding: 15px 30px;
+  width: 30%;
+  cursor: pointer;
+  margin: 30px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  background-color: #2ECC71;
+}
